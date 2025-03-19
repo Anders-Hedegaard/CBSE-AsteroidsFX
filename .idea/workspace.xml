@@ -5,34 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3edb73df-796a-4098-8a9c-917efe9e7c9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Asteroids/src/main/java/dk/sdu/cbse/asteroid/AsteroidPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Asteroids/src/main/java/dk/sdu/cbse/asteroid/AsteroidProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Asteroids/src/main/java/dk/sdu/cbse/asteroid/AsteroidSplitterImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bullet/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bullet/src/main/java/dk/sdu/cbse/bulletsystem/BulletControlSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bullet/src/main/java/dk/sdu/cbse/bulletsystem/BulletPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bullet/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonAsteroids/src/main/java/dk/sdu/cbse/common/asteroids/Asteroid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonAsteroids/src/main/java/dk/sdu/cbse/common/asteroids/IAsteroidSplitter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonAsteroids/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonBullet/src/main/java/dk/sdu/cbse/common/bullet/Bullet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonBullet/src/main/java/dk/sdu/cbse/common/bullet/BulletSPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonBullet/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mods-mvn/Asteroids-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mods-mvn/Common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mods-mvn/CommonAsteroids-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mods-mvn/CommonBullet-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Asteroids/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bullets/src/main/java/dk/sdu/cbse/bulletsystem/BulletControlSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bullets/src/main/java/dk/sdu/cbse/bulletsystem/BulletPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bullets/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collision/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collision/src/main/java/dk/sdu/cbse/collisionsystem/CollisionDetector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collision/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/src/main/java/dk/sdu/cbse/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Enemy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Enemy/src/main/java/dk/sdu/cbse/enemysystem/Enemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Enemy/src/main/java/dk/sdu/cbse/enemysystem/EnemyControlSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Enemy/src/main/java/dk/sdu/cbse/enemysystem/EnemyPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Enemy/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Player/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/cbse/playersystem/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/cbse/playersystem/PlayerControlSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/cbse/playersystem/PlayerPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Player/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/javafx-controls-21.0.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonAsteroids/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CommonAsteroids/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonAsteroids/src/main/java/dk/sdu/cbse/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonBullet/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CommonBullet/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonBullet/src/main/java/dk/sdu/cbse/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asteroids/target/Asteroids-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Asteroids/target/Asteroids-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asteroids/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Asteroids/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asteroids/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Asteroids/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bullet/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bullets/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bullet/src/main/java/dk/sdu/cbse/bulletsystem/BulletControlSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bullet/src/main/java/dk/sdu/cbse/bulletsystem/BulletPlugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bullet/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/src/main/java/dk/sdu/cbse/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/target/Core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Core/target/Core-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/target/classes/dk/sdu/cbse/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods-mvn/Asteroids-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mods-mvn/Asteroids-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods-mvn/Common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mods-mvn/Common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods-mvn/CommonAsteroids-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mods-mvn/CommonAsteroids-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mods-mvn/CommonBullet-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mods-mvn/CommonBullet-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mods-mvn/Core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mods-mvn/Core-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -47,8 +60,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
         <option value="module-info" />
       </list>
     </option>
@@ -56,6 +69,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\Program Files\php-8.3.12-nts-Win32-vs16-x64\php.exe" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -72,29 +89,32 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Maven.AsteroidsFX-v2 [archetype:generate...].executor": "Run",
+    "Maven.AsteroidsFX-v2 [clean,install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ander/OneDrive/Skrivebord/Softwareteknologi/4-Semester/Komponent Baseret Systemer/Project/Final-Project/CBSE-AsteroidsFX/Bullet/src/main/java",
+    "last_opened_file_path": "C:/Users/ander/OneDrive/Skrivebord/Softwareteknologi/4-Semester/Komponent Baseret Systemer/Project/Final-Project/CBSE-AsteroidsFX/Enemy/src/main/java/dk/sdu/cbse/enemysystem",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "project.structure.side.proportion": "0.3045977",
+    "settings.editor.selected.configurable": "configurable.group.tools",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ander\OneDrive\Skrivebord\Softwareteknologi\4-Semester\Komponent Baseret Systemer\Project\Final-Project\CBSE-AsteroidsFX\Enemy\src\main\java\dk\sdu\cbse\enemysystem" />
+      <recent name="C:\Users\ander\OneDrive\Skrivebord\Softwareteknologi\4-Semester\Komponent Baseret Systemer\Project\Final-Project\CBSE-AsteroidsFX\Collision\src\main\java\dk\sdu\cbse\collisionsystem" />
       <recent name="C:\Users\ander\OneDrive\Skrivebord\Softwareteknologi\4-Semester\Komponent Baseret Systemer\Project\Final-Project\CBSE-AsteroidsFX\Bullet\src\main\java" />
       <recent name="C:\Users\ander\OneDrive\Skrivebord\Softwareteknologi\4-Semester\Komponent Baseret Systemer\Project\Final-Project\CBSE-AsteroidsFX\Bullet\src\main\java\dk\sdu\cbse\bulletsystem" />
       <recent name="C:\Users\ander\OneDrive\Skrivebord\Softwareteknologi\4-Semester\Komponent Baseret Systemer\Project\Final-Project\CBSE-AsteroidsFX\Bullet\java\src\main\dk\sdu\cbse\bulletsystem" />
-      <recent name="C:\Users\ander\OneDrive\Skrivebord\Softwareteknologi\4-Semester\Komponent Baseret Systemer\Project\Final-Project\CBSE-AsteroidsFX\Asteroids\src\main\java\dk\sdu\cbse\asteroid" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ander\OneDrive\Skrivebord\Softwareteknologi\4-Semester\Komponent Baseret Systemer\Project\Final-Project\CBSE-AsteroidsFX\Asteroids\src\main\java\dk\sdu\cbse\asteroid" />
@@ -104,8 +124,11 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="java --module-path mods-mvn --class-path &quot;libs/*&quot; --module=Core/dk.sdu.cbse.App" />
-      <command value="java --module-path mods-mvn --class-path &quot;libs/*&quot; --module=Core/dk.sdu.cbse.Main" />
       <command value="mvn archetype:generate -DarchetypeGroupId=org.codehaus.mojo.archetypes -DarchetypeArtifactId=pom-root -DarchetypeVersion=RELEASE " />
+      <command value="java --module-path mods-mvn --class-path &quot;libs/*&quot; --module=Core/dk.sdu.cbse.Main" />
+      <command value="java --module-path mods-mvn --class-path &quot;libs/*&quot; --module=Core/dk.sdu.cbse.main.Main" />
+      <command value="mvn clean install" />
+      <command value="mvn archetype:generate -DarchetypeGroupId=org.codehaus.mojo.archetypes -DarchetypeArtifactId=pom-root -DarchetypeVersion=RELEASE" />
     </option>
   </component>
   <component name="SharedIndexes">
@@ -117,6 +140,9 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\ander\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="3edb73df-796a-4098-8a9c-917efe9e7c9c" name="Changes" comment="" />
@@ -130,6 +156,11 @@
       <workItem from="1742370241992" duration="3077000" />
       <workItem from="1742376235982" duration="622000" />
       <workItem from="1742376869773" duration="518000" />
+      <workItem from="1742377404520" duration="722000" />
+      <workItem from="1742378252026" duration="580000" />
+      <workItem from="1742379085616" duration="1116000" />
+      <workItem from="1742380320423" duration="1734000" />
+      <workItem from="1742391258997" duration="6753000" />
     </task>
     <servers />
   </component>
@@ -138,5 +169,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

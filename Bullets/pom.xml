@@ -7,11 +7,10 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
   <groupId>dk.sdu.cbse</groupId>
-  <artifactId>Bullet</artifactId>
+  <artifactId>Bullets</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
-  <name>Bullet</name>
-
+  <name>Bullets</name>
   <dependencies>
     <dependency>
       <groupId>${project.groupId}</groupId>
