@@ -11,6 +11,14 @@
     <packaging>jar</packaging>
     <name>CommonAsteroids</name>
 
+    <dependencies>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>Common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+
     <artifactId>CommonAsteroids</artifactId>
 
     <properties>

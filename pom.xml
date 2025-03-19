@@ -122,5 +122,7 @@
     <module>Common</module>
     <module>CommonAsteroids</module>
     <module>CommonBullet</module>
+    <module>Asteroids</module>
+    <module>Bullet</module>
   </modules>
 </project>

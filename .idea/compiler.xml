@@ -6,13 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Bullet" />
-        <module name="Player" />
         <module name="CommonBullet" />
-        <module name="Core" />
+        <module name="Asteroids" />
         <module name="Common" />
         <module name="CommonAsteroids" />
+        <module name="Core" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AsteroidsFX-v2" target="9" />
+      <module name="Bullet" target="21" />
+      <module name="Player" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>
