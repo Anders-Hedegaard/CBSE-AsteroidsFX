@@ -6,6 +6,7 @@ import dk.sdu.cbse.common.data.GameData;
 import dk.sdu.cbse.common.data.World;
 import dk.sdu.cbse.common.services.IEntityProcessingService;
 import java.util.Collection;
+import java.util.Random;
 import java.util.ServiceLoader;
 import static java.util.stream.Collectors.toList;
 
@@ -14,6 +15,7 @@ public class EnemyControlSystem implements IEntityProcessingService {
     @Override
     public void process(GameData gameData, World world) {
         for (Entity enemy : world.getEntities(Enemy.class)) {
+            Random rnd = new Random();
             enemy.setRotation(enemy.getRotation() + (Math.random() * 10) - 5);
 
             double changeX = Math.cos(Math.toRadians(enemy.getRotation()));
@@ -36,11 +38,13 @@ public class EnemyControlSystem implements IEntityProcessingService {
             if (enemy.getY() > gameData.getDisplayHeight()) {
                 enemy.setY(enemy.getY() % gameData.getDisplayHeight());
             }
-            getBulletSPIs().stream().findFirst().ifPresent(
-                    spi -> {
-                        world.addEntity(spi.createBullet(enemy, gameData));
-                    }
-            );
+            if (rnd.nextInt(200) < 10) {
+                getBulletSPIs().stream().findFirst().ifPresent(
+                        spi -> {
+                            world.addEntity(spi.createBullet(enemy, gameData));
+                        }
+                );
+            }
         }
     }
 
