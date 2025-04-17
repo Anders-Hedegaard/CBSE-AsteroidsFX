@@ -36,14 +36,9 @@ public class AsteroidProcessor implements IEntityProcessingService {
             if (asteroid.getY() > gameData.getDisplayHeight()) {
                 asteroid.setY(asteroid.getY() % gameData.getDisplayHeight());
             }
-
         }
-
     }
 
-    /**
-     * Dependency Injection using OSGi Declarative Services
-     */
     public void setAsteroidSplitter(IAsteroidSplitter asteroidSplitter) {
         this.asteroidSplitter = asteroidSplitter;
     }
@@ -51,6 +46,4 @@ public class AsteroidProcessor implements IEntityProcessingService {
     public void removeAsteroidSplitter(IAsteroidSplitter asteroidSplitter) {
         this.asteroidSplitter = null;
     }
-
-
 }
