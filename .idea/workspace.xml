@@ -12,10 +12,13 @@
       <change beforePath="$PROJECT_DIR$/Asteroids/target/Asteroids-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Asteroids/target/Asteroids-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Asteroids/target/classes/dk/sdu/cbse/asteroid/AsteroidProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/Asteroids/target/classes/dk/sdu/cbse/asteroid/AsteroidProcessor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Asteroids/target/classes/dk/sdu/cbse/asteroid/AsteroidSplitterImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Asteroids/target/classes/dk/sdu/cbse/asteroid/AsteroidSplitterImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asteroids/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Asteroids/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collision/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Collision/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Collision/src/main/java/dk/sdu/cbse/collisionsystem/CollisionDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collision/src/main/java/dk/sdu/cbse/collisionsystem/CollisionDetector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collision/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collision/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/target/Core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Core/target/Core-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Enemy/src/main/java/dk/sdu/cbse/enemysystem/EnemyPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Enemy/src/main/java/dk/sdu/cbse/enemysystem/EnemyPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/cbse/playersystem/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/cbse/playersystem/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/cbse/playersystem/PlayerControlSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/cbse/playersystem/PlayerControlSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mods-mvn/Common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mods-mvn/Common-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mods-mvn/CommonAsteroids-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mods-mvn/CommonAsteroids-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mods-mvn/CommonBullet-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mods-mvn/CommonBullet-1.0-SNAPSHOT.jar" afterDir="false" />
@@ -139,7 +142,9 @@
       <workItem from="1742893324818" duration="359000" />
       <workItem from="1742973198463" duration="5955000" />
       <workItem from="1743159452475" duration="19000" />
-      <workItem from="1744897935494" duration="4543000" />
+      <workItem from="1744897935494" duration="6161000" />
+      <workItem from="1745302694421" duration="12000" />
+      <workItem from="1745393625637" duration="5789000" />
     </task>
     <servers />
   </component>

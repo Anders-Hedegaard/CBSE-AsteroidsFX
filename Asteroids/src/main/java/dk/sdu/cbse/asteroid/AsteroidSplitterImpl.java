@@ -6,6 +6,8 @@ import dk.sdu.cbse.common.data.Entity;
 import dk.sdu.cbse.common.data.World;
 
 public class AsteroidSplitterImpl implements IAsteroidSplitter {
+    public AsteroidSplitterImpl() {
+    }
 
     @Override
     public void createSplitAsteroid(Entity e, World world) {
@@ -18,23 +20,26 @@ public class AsteroidSplitterImpl implements IAsteroidSplitter {
         double rotation = e.getRotation();
         float radius = e.getRadius();
 
+        if (e.getRadius() <= 4) {
+            world.removeEntity(e);
+        }else{
+            Entity asteroid1 = new Asteroid();
+            asteroid1.setPolygonCoordinates(entityCoordinates);
+            asteroid1.setY(yCoordinate + 10);
+            asteroid1.setX(xCoordinate + 10);
+            asteroid1.setRadius(radius / 2);
+            asteroid1.setRotation(rotation + 5);
 
-        Entity asteroid1 = new Asteroid();
-        asteroid1.setPolygonCoordinates(entityCoordinates);
-        asteroid1.setY(yCoordinate + 5);
-        asteroid1.setX(xCoordinate + 5);
-        asteroid1.setRadius(radius/2);
-        asteroid1.setRotation(rotation + 5);
+            Entity asteroid2 = new Asteroid();
+            asteroid2.setPolygonCoordinates(entityCoordinates);
+            asteroid2.setY(yCoordinate - 10);
+            asteroid2.setX(xCoordinate - 10);
+            asteroid2.setRadius(radius / 2);
+            asteroid2.setRotation(rotation - 5);
 
-        Entity asteroid2 = new Asteroid();
-        asteroid2.setPolygonCoordinates(entityCoordinates);
-        asteroid2.setY(yCoordinate - 5);
-        asteroid2.setX(xCoordinate - 5);
-        asteroid2.setRadius(radius/2);
-        asteroid2.setRotation(rotation - 5);
-
-        world.removeEntity(e);
-        world.addEntity(asteroid1);
-        world.addEntity(asteroid2);
+            world.removeEntity(e);
+            world.addEntity(asteroid1);
+            world.addEntity(asteroid2);
+        }
     }
 }

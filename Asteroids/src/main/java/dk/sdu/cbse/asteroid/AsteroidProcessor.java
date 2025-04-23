@@ -1,7 +1,6 @@
 package dk.sdu.cbse.asteroid;
 
 import dk.sdu.cbse.common.asteroids.Asteroid;
-import dk.sdu.cbse.common.asteroids.IAsteroidSplitter;
 import dk.sdu.cbse.common.data.Entity;
 import dk.sdu.cbse.common.data.GameData;
 import dk.sdu.cbse.common.data.World;
@@ -9,7 +8,7 @@ import dk.sdu.cbse.common.services.IEntityProcessingService;
 
 public class AsteroidProcessor implements IEntityProcessingService {
 
-    private IAsteroidSplitter asteroidSplitter = new AsteroidSplitterImpl();
+//    private IAsteroidSplitter asteroidSplitter = new AsteroidSplitterImpl();
 
     @Override
     public void process(GameData gameData, World world) {
@@ -39,11 +38,11 @@ public class AsteroidProcessor implements IEntityProcessingService {
         }
     }
 
-    public void setAsteroidSplitter(IAsteroidSplitter asteroidSplitter) {
-        this.asteroidSplitter = asteroidSplitter;
-    }
-
-    public void removeAsteroidSplitter(IAsteroidSplitter asteroidSplitter) {
-        this.asteroidSplitter = null;
-    }
+//    public void setAsteroidSplitter(IAsteroidSplitter asteroidSplitter) {
+//        this.asteroidSplitter = asteroidSplitter;
+//    }
+//
+//    public void removeAsteroidSplitter(IAsteroidSplitter asteroidSplitter) {
+//        this.asteroidSplitter = null;
+//    }
 }
