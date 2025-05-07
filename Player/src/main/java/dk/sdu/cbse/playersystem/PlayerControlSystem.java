@@ -1,6 +1,5 @@
 package dk.sdu.cbse.playersystem;
 
-import dk.sdu.cbse.common.bullet.Bullet;
 import dk.sdu.cbse.common.bullet.BulletSPI;
 import dk.sdu.cbse.common.data.Entity;
 import dk.sdu.cbse.common.data.GameData;
@@ -19,14 +18,14 @@ public class PlayerControlSystem implements IEntityProcessingService {
 
         for (Entity player : world.getEntities(Player.class)) {
             if (gameData.getKeys().isDown(GameKeys.LEFT)) {
-                player.setRotation(player.getRotation() - 5);
+                player.setRotation(player.getRotation() - 2);
             }
             if (gameData.getKeys().isDown(GameKeys.RIGHT)) {
-                player.setRotation(player.getRotation() + 5);
+                player.setRotation(player.getRotation() + 2);
             }
             if (gameData.getKeys().isDown(GameKeys.UP)) {
-                double changeX = Math.cos(Math.toRadians(player.getRotation()));
-                double changeY = Math.sin(Math.toRadians(player.getRotation()));
+                double changeX = Math.cos(Math.toRadians(player.getRotation())) * 0.5;
+                double changeY = Math.sin(Math.toRadians(player.getRotation())) * 0.5;
                 player.setX(player.getX() + changeX);
                 player.setY(player.getY() + changeY);
             }

@@ -18,8 +18,8 @@ public class EnemyControlSystem implements IEntityProcessingService {
             Random rnd = new Random();
             enemy.setRotation(enemy.getRotation() + (Math.random() * 10) - 5);
 
-            double changeX = Math.cos(Math.toRadians(enemy.getRotation()));
-            double changeY = Math.sin(Math.toRadians(enemy.getRotation()));
+            double changeX = Math.cos(Math.toRadians(enemy.getRotation())) * 0.5;
+            double changeY = Math.sin(Math.toRadians(enemy.getRotation())) * 0.5;
             enemy.setX(enemy.getX() + changeX);
             enemy.setY(enemy.getY() + changeY);
 

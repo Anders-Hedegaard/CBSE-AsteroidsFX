@@ -130,8 +130,5 @@ class Game {
     private List<IEntityProcessingService> getEntityProcessingServices() {
         return entityProcessingServiceList;
     }
-    private List<IPostEntityProcessingService> getPostEntityProcessingServices() {
-        return postEntityProcessingServices;
-    }
-
+    private List<IPostEntityProcessingService> getPostEntityProcessingServices() {return postEntityProcessingServices;}
 }
