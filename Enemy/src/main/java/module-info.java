@@ -6,7 +6,8 @@ module Enemy {
     requires Common;
     requires CommonBullet;
     uses dk.sdu.cbse.common.bullet.BulletSPI;
+    exports dk.sdu.cbse.enemysystem;
     provides IGamePluginService with dk.sdu.cbse.enemysystem.EnemyPlugin;
     provides IEntityProcessingService with dk.sdu.cbse.enemysystem.EnemyControlSystem;
-    provides ISplitPackage with dk.sdu.cbse.splitPackage.SplitPackageClass;
+    provides ISplitPackage with dk.sdu.cbse.enemysystem.SplitPackageClass;
 }

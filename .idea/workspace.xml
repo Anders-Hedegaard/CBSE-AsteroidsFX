@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3edb73df-796a-4098-8a9c-917efe9e7c9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/cbse/common/services/ISplitPackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Enemy/src/main/java/dk/sdu/cbse/splitPackage/SplitPackageClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/cbse/splitPackage/SplitPackageClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Asteroids/target/Asteroids-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Asteroids/target/Asteroids-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/src/main/java/dk/sdu/cbse/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core/src/main/java/dk/sdu/cbse/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/target/Core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Core/target/Core-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Enemy/src/main/java/dk/sdu/cbse/splitPackage/SplitPackageClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Enemy/src/main/java/dk/sdu/cbse/enemysystem/SplitPackageClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Enemy/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Enemy/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Player/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mods-mvn/Common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mods-mvn/Common-1.0-SNAPSHOT.jar" afterDir="false" />
@@ -35,8 +31,8 @@
       <list>
         <option value="module-info" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>

@@ -6,7 +6,8 @@ module Player {
     requires Common;
     requires CommonBullet;
     uses dk.sdu.cbse.common.bullet.BulletSPI;
+    exports dk.sdu.cbse.playersystem;
     provides IGamePluginService with dk.sdu.cbse.playersystem.PlayerPlugin;
     provides IEntityProcessingService with dk.sdu.cbse.playersystem.PlayerControlSystem;
-    provides ISplitPackage with dk.sdu.cbse.splitPackage.SplitPackageClass;
+    provides ISplitPackage with dk.sdu.cbse.playersystem.SplitPackageClass;
 }
