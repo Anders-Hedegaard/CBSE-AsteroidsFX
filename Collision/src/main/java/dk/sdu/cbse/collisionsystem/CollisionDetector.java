@@ -12,12 +12,17 @@ import java.util.ServiceLoader;
 public class CollisionDetector implements IPostEntityProcessingService {
     private IAsteroidSplitter asteroidSplitter;
 
+    // Constructor for production code
     public CollisionDetector() {
         ServiceLoader<IAsteroidSplitter> loader = ServiceLoader.load(IAsteroidSplitter.class);
         asteroidSplitter = loader.findFirst()
                 .orElseThrow(() -> new RuntimeException("No AsteroidSplitter implementation found"));
     }
 
+    // Constructor for test code
+    public CollisionDetector(IAsteroidSplitter asteroidSplitter) {
+        this.asteroidSplitter = asteroidSplitter;
+    }
 
     @Override
     public void process(GameData gameData, World world) {
@@ -61,5 +66,4 @@ public class CollisionDetector implements IPostEntityProcessingService {
         float distance = (float) Math.sqrt(dx * dx + dy * dy);
         return distance < (entity1.getRadius() + entity2.getRadius());
     }
-
 }
