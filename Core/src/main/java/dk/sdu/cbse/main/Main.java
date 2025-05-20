@@ -4,6 +4,7 @@ import dk.sdu.cbse.common.data.Entity;
 import dk.sdu.cbse.common.data.GameData;
 import dk.sdu.cbse.common.data.GameKeys;
 import dk.sdu.cbse.common.data.World;
+import dk.sdu.cbse.common.services.IBackgroundService;
 import dk.sdu.cbse.common.services.IEntityProcessingService;
 import dk.sdu.cbse.common.services.IGamePluginService;
 import dk.sdu.cbse.common.services.IPostEntityProcessingService;
@@ -37,6 +38,11 @@ public class Main extends Application {
         Text text = new Text(10, 20, "Destroyed asteroids: 69");
         gameWindow.setPrefSize(gameData.getDisplayWidth(), gameData.getDisplayHeight());
         gameWindow.getChildren().add(text);
+
+        ServiceLoader <IBackgroundService> backgroundLoader = ServiceLoader.load(IBackgroundService.class);
+        for (IBackgroundService backgroundService : backgroundLoader) {
+            backgroundService.setBackground(gameWindow);
+        }
 
         Scene scene = new Scene(gameWindow);
         scene.setOnKeyPressed(event -> {
