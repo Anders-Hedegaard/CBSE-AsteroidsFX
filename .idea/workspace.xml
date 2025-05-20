@@ -5,17 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3edb73df-796a-4098-8a9c-917efe9e7c9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Collision/src/test/java/dk/sdu/cbse/collisionsystem/ColisionDetectorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScoringSystem/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScoringSystem/ScoringSystem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScoringSystem/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScoringSystem/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScoringSystem/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScoringSystem/src/main/java/dk/sdu/cbse/ScoringSystem/ScoringSystemApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScoringSystem/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScoringSystem/src/test/java/dk/sdu/cbse/ScoringSystem/ScoringSystemApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Asteroids/target/Asteroids-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Asteroids/target/Asteroids-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collision/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Collision/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collision/src/main/java/dk/sdu/cbse/collisionsystem/CollisionDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collision/src/main/java/dk/sdu/cbse/collisionsystem/CollisionDetector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/src/main/java/dk/sdu/cbse/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core/src/main/java/dk/sdu/cbse/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/target/Core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Core/target/Core-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mods-mvn/Common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mods-mvn/Common-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mods-mvn/CommonAsteroids-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mods-mvn/CommonAsteroids-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mods-mvn/CommonBullet-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mods-mvn/CommonBullet-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mods-mvn/Core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mods-mvn/Core-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +43,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
@@ -61,10 +74,10 @@
     "Maven.AsteroidsFX-v2 [clean,install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "MicroServices",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ander/OneDrive/Skrivebord/Softwareteknologi/4-Semester/Komponent Baseret Systemer/Project/Final-Project/CBSE-AsteroidsFX/Enemy/src/main/java/dk/sdu/cbse/enemysystem",
+    "last_opened_file_path": "C:/Users/ander/OneDrive/Skrivebord/Softwareteknologi/4-Semester/Komponent Baseret Systemer/CorfixensProject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -86,6 +99,7 @@
       <recent name="C:\Users\ander\OneDrive\Skrivebord\Softwareteknologi\4-Semester\Komponent Baseret Systemer\Project\Final-Project\CBSE-AsteroidsFX\Bullet\java\src\main\dk\sdu\cbse\bulletsystem" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ander\OneDrive\Skrivebord\Softwareteknologi\4-Semester\Komponent Baseret Systemer\Project\Final-Project\CBSE-AsteroidsFX\ScoringSystem" />
       <recent name="C:\Users\ander\OneDrive\Skrivebord\Softwareteknologi\4-Semester\Komponent Baseret Systemer\Project\Final-Project\CBSE-AsteroidsFX\Asteroids\src\main\java\dk\sdu\cbse\asteroid" />
       <recent name="C:\Users\ander\OneDrive\Skrivebord\Softwareteknologi\4-Semester\Komponent Baseret Systemer\Project\AsteroidsFX-v2" />
     </key>
@@ -100,7 +114,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ColisionDetectorTest">
     <configuration name="ColisionDetectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Collision" />
       <extension name="coverage">
@@ -116,8 +130,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ScoringSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ScoringSystem" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="dk.sdu.cbse.ScoringSystem.ScoringSystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ColisionDetectorTest" />
+        <item itemvalue="JUnit.ColisionDetectorTest" />
         <item itemvalue="JUnit.ColisionDetectorTest" />
       </list>
     </recent_temporary>
@@ -161,6 +184,8 @@
       <workItem from="1744897935494" duration="6161000" />
       <workItem from="1745302694421" duration="12000" />
       <workItem from="1745393625637" duration="7391000" />
+      <workItem from="1747295953481" duration="22000" />
+      <workItem from="1747725917777" duration="1538000" />
     </task>
     <servers />
   </component>

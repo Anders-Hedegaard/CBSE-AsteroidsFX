@@ -141,5 +141,6 @@
     <module>Bullets</module>
     <module>Collision</module>
     <module>Enemy</module>
+    <module>ScoringSystem</module>
   </modules>
 </project>
