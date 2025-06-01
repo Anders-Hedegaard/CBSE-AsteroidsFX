@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3edb73df-796a-4098-8a9c-917efe9e7c9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Collision/src/test/java/dk/sdu/cbse/collisionsystem/ColisionDetectorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Asteroids/target/Asteroids-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Asteroids/target/Asteroids-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collision/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Collision/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collision/src/main/java/dk/sdu/cbse/collisionsystem/CollisionDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collision/src/main/java/dk/sdu/cbse/collisionsystem/CollisionDetector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/src/main/java/dk/sdu/cbse/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core/src/main/java/dk/sdu/cbse/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/target/Core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Core/target/Core-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/cbse/playersystem/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/cbse/playersystem/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mods-mvn/Common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mods-mvn/Common-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mods-mvn/CommonAsteroids-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mods-mvn/CommonAsteroids-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mods-mvn/CommonBullet-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mods-mvn/CommonBullet-1.0-SNAPSHOT.jar" afterDir="false" />
@@ -53,30 +55,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "JUnit.ColisionDetectorTest.executor": "Run",
-    "Maven.AsteroidsFX-v2 [archetype:generate...].executor": "Run",
-    "Maven.AsteroidsFX-v2 [clean,install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ander/OneDrive/Skrivebord/Softwareteknologi/4-Semester/Komponent Baseret Systemer/Project/Final-Project/CBSE-AsteroidsFX/Enemy/src/main/java/dk/sdu/cbse/enemysystem",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.3045977",
-    "settings.editor.selected.configurable": "configurable.group.tools",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;JUnit.ColisionDetectorTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.AsteroidsFX-v2 [archetype:generate...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.AsteroidsFX-v2 [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ander/OneDrive/Skrivebord/Softwareteknologi/4-Semester/Komponent Baseret Systemer/Project/Final-Project/CBSE-AsteroidsFX/Enemy/src/main/java/dk/sdu/cbse/enemysystem&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3045977&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ander\OneDrive\Skrivebord\Softwareteknologi\4-Semester\Komponent Baseret Systemer\Project\Final-Project\CBSE-AsteroidsFX\Enemy\src\main\java\dk\sdu\cbse\enemysystem" />
@@ -161,6 +163,8 @@
       <workItem from="1744897935494" duration="6161000" />
       <workItem from="1745302694421" duration="12000" />
       <workItem from="1745393625637" duration="7391000" />
+      <workItem from="1748767853517" duration="2285000" />
+      <workItem from="1748785485887" duration="1291000" />
     </task>
     <servers />
   </component>
